@@ -33,5 +33,3 @@ Repeat steps 2 and 3 until convergence (i.e., centroids do not change significan
 Dependencies
 Python 3.x
 No external libraries are required.
-License
-This project is licensed under the MIT License. See the LICENSE file for details.
