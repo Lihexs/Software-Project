@@ -8,7 +8,7 @@ Usage
 The program can be run from the command line with the following arguments:
 
 php
-Copy code
+
 python main.py <K> [<iterations>] <input_file>
 <K>: The number of clusters (required).
 <iterations>: The maximum number of iterations (optional, default is 200).
