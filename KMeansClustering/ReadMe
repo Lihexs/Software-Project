@@ -7,8 +7,6 @@ The task is to implement the K-Means Algorithm in Python and apply it to a given
 Usage
 The program can be run from the command line with the following arguments:
 
-php
-
 python main.py <K> [<iterations>] <input_file>
 <K>: The number of clusters (required).
 <iterations>: The maximum number of iterations (optional, default is 200).
