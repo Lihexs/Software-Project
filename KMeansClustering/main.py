@@ -1,6 +1,6 @@
 import math
 import sys
-##test
+
 
 def distance(vectorA, vectorB):
     """
