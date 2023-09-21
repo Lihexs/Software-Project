@@ -17,10 +17,39 @@ This project involves implementing a clustering algorithm using Symmetric Non-ne
 - setup.py : Build script for Python C extension  
 - Makefile : Make script for C executable  
 
-## Usage
-1. Import the custom library.
-2. Run SymNMF clustering.
-3. Run K-means clustering for comparison.
+## 🚀 Quick Start
+
+Follow these steps to get your clustering project up and running:
+
+### 1️⃣ Compile C Code for SymNMF
+Open your terminal and execute:
+\`\`\`bash
+make
+\`\`\`
+
+### 2️⃣ Build Python Extension
+In the terminal, run:
+\`\`\`bash
+python3 setup.py build_ext --inplace
+\`\`\`
+
+### 3️⃣ Execute the Python Program
+Run the SymNMF algorithm with:
+\`\`\`bash
+python3 symnmf.py <k> <goal> <file_name.txt>
+\`\`\`
+Where:
+- `<k>`: Specifies the number of clusters
+- `<goal>`: Defines the algorithm goal (choices are symnmf, sym, ddg, norm)
+- `<file_name.txt>`: Data points input file
+
+### 4️⃣ Conduct Analysis
+To perform the data analysis, execute:
+\`\`\`bash
+python3 analysis.py <k> <file_name.txt>
+\`\`\`
+
+
 
 ## Contributors
 - Lior Kovtun
