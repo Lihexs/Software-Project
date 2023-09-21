@@ -23,9 +23,9 @@ Follow these steps to get your clustering project up and running:
 
 ### 1️⃣ Compile C Code for SymNMF
 Open your terminal and execute:
-\`\`\`bash
+
 make
-\`\`\`
+
 
 ### 2️⃣ Build Python Extension
 In the terminal, run:  
