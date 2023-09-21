@@ -9,13 +9,13 @@ This project involves implementing a clustering algorithm using Symmetric Non-ne
 - C Compiler
 
 ## 📂 Structure
-symnmf.py : Python implementation of SymNMF  
-symnmf.c : C implementation of SymNMF  
-symnmf.h : C header file  
-symnmfmodule.c : Python C API Wrapper for SymNMF  
-analysis.py : Analysis and comparison script  
-setup.py : Build script for Python C extension  
-Makefile : Make script for C executable  
+-symnmf.py : Python implementation of SymNMF  
+-symnmf.c : C implementation of SymNMF  
+-symnmf.h : C header file  
+-symnmfmodule.c : Python C API Wrapper for SymNMF  
+-analysis.py : Analysis and comparison script  
+-setup.py : Build script for Python C extension  
+-Makefile : Make script for C executable  
 
 ## Usage
 1. Import the custom library.
