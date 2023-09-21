@@ -6,6 +6,8 @@ This project involves implementing a clustering algorithm using Symmetric Non-ne
 ## Requirements
 - Python 3.x
 - C Compiler
+- Numpy
+- Pandas
 
 ## 📂 Structure
 - symnmf.py : Python implementation of SymNMF  
