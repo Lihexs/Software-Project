@@ -2,20 +2,20 @@
 ## Due Date: 08/10/2023
 
 ## Introduction
-This project focuses on the implementation of a clustering algorithm based on Symmetric Non-negative Matrix Factorization (SymNMF). In addition to SymNMF, we've also developed a K-means clustering algorithm for comparative analysis across multiple datasets.
-
-## Highlights
-- Custom Python library developed in C to enhance clustering performance.
+This project involves implementing a clustering algorithm using Symmetric Non-negative Matrix Factorization (SymNMF). We also built a K-means clustering algorithm for comparison on various datasets. A highlight of our project is a custom Python library, written in C, aimed at enhancing clustering performance.
 
 ## Requirements
 - Python 3.x
 - C Compiler
 
-## Installation
-1. Clone the repository.
-2. Navigate to the project directory.
-3. Compile the C library.
-4. Install Python dependencies.
+## 📂 Structure
+symnmf.py : Python implementation of SymNMF
+symnmf.c : C implementation of SymNMF
+symnmf.h : C header file
+symnmfmodule.c : Python C API Wrapper for SymNMF
+analysis.py : Analysis and comparison script
+setup.py : Build script for Python C extension
+Makefile : Make script for C executable
 
 ## Usage
 1. Import the custom library.
@@ -23,6 +23,6 @@ This project focuses on the implementation of a clustering algorithm based on Sy
 3. Run K-means clustering for comparison.
 
 ## Contributors
-- [Your Name]
-- [Collaborator's Name]
+- Lior Kovtun
+- Shalev Baruch
 
