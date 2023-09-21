@@ -22,8 +22,7 @@ This project involves implementing a clustering algorithm using Symmetric Non-ne
 Follow these steps to get your clustering project up and running:
 
 ### 1️⃣ Compile C Code for SymNMF
-Open your terminal and execute:
-
+Open your terminal and execute:  
 make
 
 
