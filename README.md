@@ -22,13 +22,14 @@ This project involves implementing a clustering algorithm using Symmetric Non-ne
 Follow these steps to get your clustering project up and running:
 
 ### 1️⃣ Compile C Code for SymNMF
-Open your terminal and execute:   
+Open your terminal and execute: 
+  
 make
 
 
 ### 2️⃣ Build Python Extension
 In the terminal, run:    
-
+  
 python3 setup.py build_ext --inplace
 
 ### 3️⃣ Execute the Python Program
