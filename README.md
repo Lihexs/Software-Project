@@ -17,6 +17,7 @@ This project involves implementing a clustering algorithm using Symmetric Non-ne
 - analysis.py : Analysis and comparison script  
 - setup.py : Build script for Python C extension  
 - Makefile : Make script for C executable  
+- Text_file_input_example.txt Data points input file example
 
 ## 🚀 Quick Start
 
@@ -40,7 +41,9 @@ python3 symnmf.py <k> <goal> <file_name.txt>
 Where:
 - `<k>`: Specifies the number of clusters
 - `<goal>`: Defines the algorithm goal (choices are symnmf, sym, ddg, norm)
-- `<file_name.txt>`: Data points input file
+- `<file_name.txt>`: Data points input file (e.g., Text_file_input_example.txt)
+Text File Input Format
+The text file, such as Text_file_input_example.txt, should contain vectors separated by commas. Each line in the file represents a single data point in the feature space.  
 
 ### 4️⃣ Conduct Analysis
 To perform the data analysis, execute:  
