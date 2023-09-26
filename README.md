@@ -37,7 +37,7 @@ python3 setup.py build_ext --inplace
 ### 3️⃣ Execute the Python Program
 Run the SymNMF algorithm with:  
 
-python3 symnmf.py '<k>' '<goal>' '<file_name.txt>'
+`python3 symnmf.py <k> <goal> <file_name.txt>`
 Where:
 - `<k>`: Specifies the number of clusters
 - `<goal>`: Defines the algorithm goal (choices are symnmf, sym, ddg, norm)
