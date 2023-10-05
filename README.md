@@ -1,7 +1,7 @@
 # Software Project - Clustering Algorithms
 
 ## Introduction
-This project involves implementing a clustering algorithm using Symmetric Non-negative Matrix Factorization (SymNMF). We also built a K-means clustering algorithm for comparison on various datasets. A highlight of our project is a custom Python library, written in C, aimed at enhancing clustering performance.
+This project involves implementing a clustering algorithm using Symmetric Non-negative Matrix Factorization (SymNMF). We also built a K-means clustering algorithm for comparison on various datasets. A highlight of our project is a custom Python module, written in C, aimed at enhancing clustering performance.
 
 ## Requirements
 - Python 3.x
